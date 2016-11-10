@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+
+<head>
+	<title>Angular Url Interpolation</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+    <script src="node_modules/angular/angular.js"></script>
+</head>
+
+<body ng-controller="MainController as mainCtrl">
+
+	<div id="main">
+		<p class="">{{mainCtrl.title}}</p>
+		<button class="" ng-click="mainCtrl.request()">search</button>
+	</div>
+
+	<script src="app/main.module.js"></script>
+    <script src="app/main.controller.js"></script>
+</body>
+
+</html>
